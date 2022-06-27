@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image:url(img/fundo.jpg);
+}
+#principal{
+    width: 100%;
+    height:30vh;
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: -0px -80px;
+    background-size: 100%;
+    
+    
+    
+    
+}
+#pb{
+    width: 100%;
+    height: 50px;
+    /*background-color:black;*/
+    margin-top: 25vh;
+    display:inline-block;
+    
+    
+    
+    
+}
+ul{ 
+    margin:0;
+    padding:0;
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    padding: 12px 16px;
+   
+    
+  
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  background-color: black;
+  color:red;
+  font-size: 25px;
+  transition: 0.8s;
+  padding: 20px;
+}
+#pb ul li{
+    padding: 0px 15px;
+    float:none;
+    color:aliceblue;
+    font-size: 30px;
+    
+   
+}
+#conteudo{
+    width: 100%;
+    height: 600px;
+  
+    margin-top: 3%;
+}
+#info{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    background-color:black;
+    float: left;
+    
+    
+}
+#adic{
+    width:30%;
+    height: 100%;
+    display:inline-block;
+    background-color:black;
+    float:right;
+}
+#rodape{
+    width:100%;
+    height: 100px;
+    background-color:red;
+    margin-top:5%;
+}
+p{
+  color:white;
+  text-indent: 45px;
+  text-align: justify;
+  margin: 0px 15px;
+  line-height: 20px;
+ /*font-family: 'Teko', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  word-wrap: break-word;
+  font-size: 25px;
+  
+  
+  
+}
+h1{
+  color:white;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  font-size: 45px;
+  letter-spacing:5px;
+  font-family: 'Yellowtail', cursive;
+
+ 
+  
+}
+.rod-list{
+  margin: 30px 16px;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  text-align: center;
+}
+
+/*=========================*/
+#principal2{
+    width: 100%;
+    background-image: url(img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-position: -0px -80px;
+    background-size: 100%;
+    height:30vh;
+   
+    border-radius: 20px;
+  }
+  #esq{
+    width: 20%;
+    height: 800px;
+    float:left;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 2%;
+  }
+  #centro{
+    width: 45%;
+    height:800px;
+    margin-top: 2%;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 8%;
+   
+  }
+  #dir{
+    width:20%;
+    height:800px;
+    display: inline-block;
+    background-color: black;
+    float:right;
+    border-radius:20px;
+    margin-top: 2%;
+  }
+  #rodape2{
+    width:100%;
+    height:100px;
+    background-color: red;
+    border-radius:20px;
+    margin-top:2%;
+    bottom: 0;
+    background-image: url(img/fundo.jpg);
+   /*position:fixed;
+   margin-bottom: 1%;*/
+  }
+  #cab-cen{
+    width: 80%;
+    height: 20%;
+    background-color: black;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left:10%;
+  }
+  #cont-cen{
+     width: 80%;
+    height: 50%;
+    background-color: black;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left:10%;
+    margin-top:2%;
+  }
+  #roda-cen{
+    width: 80%;
+    height: 15%;
+    background-color: black;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left:10%;
+    margin-top: 2%;
+    
+  }
+/*=================*/
+.carne{
+  text-indent: 0px;
+  padding: 20px 0px;
+  color:white;
+}
+.menu-vert{
+  margin: 20px;
+   text-align: center;
+   color:white;
+   font-size:25px;
+}
+.menu-vert:hover{
+  background-color: black;
+  color:red;
+  font-size: 25px;
+  transition: 0.8s;
+  padding: 20px;
+}
+#vert{
+  display: block;
+  justify-content: center;
+ 
+}
+table{
+	color:white;
+	border:1px solid red;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+caption{
+	font-size: 25px;
+}
+td{
+	border:1px solid red;
+	border-spacing: 0px;
+	text-align: center;
+	font-size:20px;
+	font-family: arial;
+	padding: 10px;
+	text-shadow: 2px 2px 2px white;
+
+}
